@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NaiShuruwat/static/css/main.c72613fe.css",
+    "main.js": "/NaiShuruwat/static/js/main.39083105.js",
+    "static/media/Space.mp4": "/NaiShuruwat/static/media/Space.0b56c10630d5baf149c9.mp4",
+    "static/media/contactus.png": "/NaiShuruwat/static/media/contactus.c9693dd7ba8c52b5f0a8.png",
+    "static/media/LandImg.png": "/NaiShuruwat/static/media/LandImg.51c137e754af534a7cb6.png",
+    "static/media/Muskaan.png": "/NaiShuruwat/static/media/Muskaan.eef819002b6d0be79dc4.png",
+    "static/media/Go-Green.png": "/NaiShuruwat/static/media/Go-Green.3c0b1dcc6473a8652eef.png",
+    "static/media/Gyaan.png": "/NaiShuruwat/static/media/Gyaan.063d6bb221aa1e0f7ccc.png",
+    "static/media/Sudhaar.png": "/NaiShuruwat/static/media/Sudhaar.10169918052807df7297.png",
+    "static/media/Nirmaan.png": "/NaiShuruwat/static/media/Nirmaan.3cf6e20abc2d5bce204a.png",
+    "static/media/sunrise.jpg": "/NaiShuruwat/static/media/sunrise.dd82eb88a92f782bbe19.jpg",
+    "static/media/page-header.jpg": "/NaiShuruwat/static/media/page-header.fd3412329174d44dd714.jpg",
+    "static/media/facts.jpg": "/NaiShuruwat/static/media/facts.68283964d92e94d94091.jpg",
+    "static/media/donate.jpg": "/NaiShuruwat/static/media/donate.3b427f02e6a92dc18552.jpg",
+    "index.html": "/NaiShuruwat/index.html",
+    "main.c72613fe.css.map": "/NaiShuruwat/static/css/main.c72613fe.css.map",
+    "main.39083105.js.map": "/NaiShuruwat/static/js/main.39083105.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c72613fe.css",
+    "static/js/main.39083105.js"
+  ]
+}
