@@ -8,12 +8,12 @@ export default function Landing() {
         <div className="landing">
                 <span className="left">
                     <div className="caption1">
-                        <hr />
-                        <h4>WE ARE SANJIVANI NGO</h4>
+                        {/* <hr /> */}
+                        <h4></h4>
                     </div>
                     <div className="titles">
                         <div className="caption2">
-                            <p>At <span>Sanjivani,</span> we work towards the betterment of our <span>world</span> </p>
+                            <p>At <span>NAI SHURURWAT,</span> we belive that change happens from inside and the ground up <span>our vision is to address local problems with local leaders maximizing local resources </span> </p>
                         </div>
                         <div className="caption3">
                             <p>Bring out the change in society by spreading hands to help the unprivileged children and other backward communities.</p>
@@ -26,7 +26,7 @@ export default function Landing() {
 
                 </span>
                 <span className="right">
-                    <img src={main} alt="Smiling Faces" />
+                    {/* <img src={main} alt="Smiling Faces" /> */}
                 </span>
             </div>
     );

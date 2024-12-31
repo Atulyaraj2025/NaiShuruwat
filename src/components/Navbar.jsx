@@ -16,28 +16,28 @@ export default function Navbar() {
         }else if(isUser){
             setAuth("USER");
         }
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+       // window.scrollTo({ top: 0, behavior: 'smooth' });
         // Get the top bar element
-        const topBar = document.querySelector('.top-bar');
+      //  const topBar = document.querySelector('.top-bar');
         // Get the navbar element
-        const navbar = document.querySelector('.navbar');
-        function toggleStickyNavbar() {
-            if (window.scrollY > topBar.offsetHeight) {
-                navbar.classList.add('nav-sticky');
-                topBar.classList.add('hide-top-bar'); // Add class to hide top bar
-            } else {
-                navbar.classList.remove('nav-sticky');
-                topBar.classList.remove('hide-top-bar'); // Remove class to show top bar
-            }
-        }
-        window.addEventListener('scroll', toggleStickyNavbar);
+       // const navbar = document.querySelector('.navbar');
+      //  // function toggleStickyNavbar() {
+        //     if (window.scrollY > topBar.offsetHeight) {
+        //         navbar.classList.add('nav-sticky');
+        //         topBar.classList.add('hide-top-bar'); // Add class to hide top bar
+        //     } else {
+        //         navbar.classList.remove('nav-sticky');
+        //         topBar.classList.remove('hide-top-bar'); // Remove class to show top bar
+        //     }
+        // }
+       // window.addEventListener('scroll', toggleStickyNavbar);
     }, [])
 
 
     return (
         <>
             {/* <!-- Top Bar Start --> */}
-            <div className="top-bar d-none d-md-block">
+            {/* <div className="top-bar d-none d-md-block">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-8">
@@ -47,11 +47,11 @@ export default function Navbar() {
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-phone"></i>
-                                    <a href="tel:+91-7385223242"><p>+91-7385223242</p></a>
+                                    <a href="tel:+91-7385223242"><p>+91-9425311547</p></a>
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-envelope"></i>
-                                    <a href="mailto:sanjivani.vitswd@vit.edu"><p>sanjivani.vitswd@vit.edu</p></a>
+                                    <a href="mailto:"><p>naishuruwat@gmail.com</p></a>
                                 </div>
                             </div>
                         </div>
@@ -69,13 +69,13 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- Top Bar End --> */}
 
             {/* <!-- Nav Bar Start --> */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">SANJIVANI</Link>
+                    <Link to="/" className="navbar-brand">NAI SHURUWAT</Link>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>

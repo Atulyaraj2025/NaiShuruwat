@@ -6,8 +6,8 @@
     height: 600px;
     background: linear-gradient(
       109.6deg,
-      rgb(1, 24, 54) 11.2%,
-      rgba(0, 37, 84, 0.8) 100.2%
+      #F6EFBD 11.2%,
+      rgba(217, 240, 136, 0.8) 100.2%
     );
     @media (max-width: 767.98px) {
       flex-direction: column;
@@ -42,12 +42,12 @@
     }
     .caption2 {
       p {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-style: bold;
-        color: white;
+        color: black;
         text-transform: uppercase;
         span {
-          color: yellow;
+          color: #3D0301;
         }
       }
     }
@@ -57,7 +57,7 @@
         font-size: 1.25rem;
         font-weight: 200;
         font-style: oblique 40deg;
-        color: white;
+        color: black;
       }
     }
     .btns {

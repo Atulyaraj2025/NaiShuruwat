@@ -12,14 +12,8 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <div className="video-container">
-                <video src={space} type="video/mp4" autoPlay loop muted>
-                    Sorry, your browser doesn't support videos.
-                </video>
-                <div className="typewriter">
-                    <h2>ACTION, SERVICE, HOPE FOR AIDS... </h2>
-                </div>
-            </div>
+            
+            
             <Landing />
             <Initiatives />
             <Funds />
