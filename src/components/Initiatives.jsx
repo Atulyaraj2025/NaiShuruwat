@@ -8,6 +8,8 @@ import nirmaan from '../assets/Initiatives/Nirmaan.png';
 import gogreen from '../assets/Initiatives/Go-Green.png';
 import muskaan from '../assets/Initiatives/Muskaan.png';
 import '../css/initiatives.css';
+import saanjhraat from '../assets/NSNGOFOLDER/SanjhRaat.jpeg';
+
 
 const Initiatives = () => {
   const isMobile = window.innerWidth <= 768;
@@ -21,7 +23,7 @@ const Initiatives = () => {
   const InCards = [
     {
       key: uuidv4(),
-      content: <img src={sudhaar} alt="1" />,
+      content: <img src={saanjhraat} alt="1" />,
       link: "https://swd.vit.edu/flagship/rr/rr.html"
     },
     {

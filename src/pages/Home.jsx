@@ -16,7 +16,7 @@ export default function Home() {
             
             <Landing />
             <Initiatives />
-            <Funds />
+            {/* <Funds /> */}
             <ContactForm />
             <Footer />
             <BackToTop />

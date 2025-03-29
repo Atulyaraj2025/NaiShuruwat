@@ -1,5 +1,9 @@
 .Initiatives{
-    background: linear-gradient(90deg, rgb(1, 24, 54) 11.2%, rgba(0, 37, 84, 0.8) 100.2%);
+    background: linear-gradient(
+      109.6deg,
+      #F6EFBD 11.2%,
+      rgba(217, 240, 136, 0.8) 100.2%
+    );
     .title{
         display: flex;
         /* flex-direction: row-reverse; */
@@ -9,7 +13,7 @@
         font-weight: 700;
         font-size: 5em;
         padding-bottom: 0.6em;
-        color: #CECECE;
+        color:black;
         white-space: nowrap;
         transform: translateX(30px);
         -webkit-transform: translateX(30px);
